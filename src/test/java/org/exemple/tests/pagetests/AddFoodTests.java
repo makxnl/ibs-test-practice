@@ -1,4 +1,4 @@
-package org.exemple.tests;
+package org.exemple.tests.pagetests;
 import org.exemple.pages.FoodPage;
 import org.junit.jupiter.api.*;
 
@@ -62,7 +62,5 @@ public class AddFoodTests extends BaseTest {
                 .clickToSaveBtn()
                 .checkFoodIsAdded("5", "Чили", "Овощ", "true");
     }
-
-
 
 }

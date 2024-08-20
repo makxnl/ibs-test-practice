@@ -42,7 +42,6 @@ public class FoodPage extends BasePage {
     private WebElement exoticCheckbox;
 
 
-
     public FoodPage checkFoodPageTitleIsVisible(String title) {
         Assertions.assertEquals(title, foodPageTitle.getText(), "Некорректный заголовок 'Список товаров'");
         return this;
